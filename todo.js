@@ -8,7 +8,7 @@ while (input !== 'quit' && input !== 'q') {
         }
         console.log('***************')
         } else if (input === 'new') {
-         const newTodo = prompt('Okay, what is the new todo?');
+         let newTodo = prompt('Okay, what is the new todo?');
          TO_DOS.push(newTodo);
          console.log(`${newTodo} added to the list!`);
          } else if (input === 'delete'){
